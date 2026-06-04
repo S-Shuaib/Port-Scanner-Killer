@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 """
-╔═══════════════════════════════════════════════════════╗
-║         PORT SCANNER & KILLER  —  Day 6/30            ║
-║         30-Day GitHub Roadmap                         ║
-╚═══════════════════════════════════════════════════════╝
-
 Find which process is hogging a port and kill it in one command.
 
 Usage:
