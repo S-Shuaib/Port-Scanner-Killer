@@ -939,7 +939,7 @@
       </div>`;
   }
 
-  // ── KILL ──────────────────────────────────────────────────────────────────
+  // ── KILLER ──────────────────────────────────────────────────────────────────
   function runKill() {
     const raw   = document.getElementById('killPorts').value;
     const ports = raw.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n));
