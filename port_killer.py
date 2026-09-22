@@ -246,7 +246,6 @@ def cmd_kill(ports: list, host: str = "127.0.0.1", force: bool = False):
 
         if kill_process(pid, force=force):
             ok(f"Process {c(name, CYAN)} (PID {c(pid, YELLOW)}) terminated.")
-            # verify
             time.sleep(0.5)
             if not is_port_open(port, host):
                 ok(f"Port {c(port, GREEN)} is now free! 🎉")
